@@ -1,0 +1,432 @@
+:root {
+  --iris: #4d5ae5;
+  --cloud: #f4f4fd;
+  --cornflover: #e7e9fc;
+  --ocean: #404bbf;
+  --slate: #434455;
+  --navyblue: #2e2f42;
+  --white: #fff;
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--navyblue, #2e2f42);
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.card-section {
+  padding: 96px 0px 120px 0px;
+}
+.credo {
+  color: var(--cloud, #f4f4fd);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  background-color: var(--navyblue, #2e2f42);
+  max-width: 264px;
+}
+.filtr {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.64px;
+  line-height: 1.5;
+  font-style: normal;
+  color: var(--iris, #4d5ae5);
+  text-align: center;
+  background-color: var(--cloud, #f4f4fd);
+  border-radius: 4px;
+  border: 1px solid var(--cornflover, #e7e9fc);
+  text-align: center;
+  font-family: inherit;
+  border-radius: 4px;
+  padding: 12px 24px;
+}
+.filtr-list {
+  margin-bottom: 72px;
+}
+.filtr-list:first-child {
+  margin-left: 0px;
+}
+.filtr-list:last-child {
+  margin-right: 0px;
+}
+.filtr:hover,
+.filtr:focus {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.64px;
+  line-height: 1.5;
+  font-style: normal;
+  color: var(--white, #fff);
+  text-align: center;
+  background-color: var(--ocean, #404bbf);
+  border-radius: 4px;
+  border: 1px solid transparent;
+  text-align: center;
+}
+.contacts {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--slate, #434455);
+  text-decoration: none;
+  justify-content: space-between;
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--ocean, #404bbf);
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+  font-style: normal;
+  line-height: 1.116;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: var(--iris, #4d5ae5);
+  margin-left: 0px;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--iris, #4d5ae5);
+}
+.navlinks {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  color: var(--navyblue, #2e2f42);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.navlinks:hover,
+.navlinks:focus {
+  color: var(--iris, #4d5ae5);
+}
+.main-links {
+  text-decoration: none;
+}
+.description,
+.job-position,
+.section1 {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--slate, #434455);
+}
+.nav-menu {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+.job-position {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.description {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.order {
+  background-color: var(--iris, #4d5ae5);
+  color: var(--white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 0.64px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  min-width: 169px;
+  height: 56px;
+}
+.order:hover {
+  background-color: var(--ocean, #404bbf);
+}
+.third-heading {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  /*hejka, w Figmie mamy headery nych kart wpisane jako Header 3 czy musimy to zmienić?*/
+  color: var(--navyblue, #2e2f42);
+  margin-bottom: 8px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+}
+.down-description > .third-heading {
+  text-align: center;
+}
+.other-section {
+  padding: 120px 0;
+}
+.second-heading {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.first-heading {
+  color: var(--white, #fff);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  max-width: 496px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+button {
+  cursor: pointer;
+}
+.logo-part {
+  color: var(--navyblue, #2e2f42);
+}
+.logo-down {
+  color: var(--cloud, #f4f4fd);
+}
+.logo-part:hover,
+.logo-part:focus,
+.logo-down:hover,
+.logo-down:focus {
+  color: var(--iris, #4d5ae5);
+}
+.first-section {
+  background-color: var(--navyblue, #2e2f42);
+}
+.second-section {
+  background-color: var(--white, #fff);
+  padding-top: 0;
+}
+.third-section {
+  background-color: var(--cloud, #f4f4fd);
+}
+.down {
+  background-color: var(--navyblue, #2e2f42);
+  padding: 100px 0;
+}
+.paragrafs {
+  color: var(--slate, #434455);
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.top-header {
+  height: 72px;
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+  display: flex;
+}
+.top-header > .container {
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  padding-inline-start: 0px;
+}
+.part-navlinks {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  margin-right: auto;
+}
+.part-contact-links {
+  display: flex;
+  align-items: center;
+}
+.part-navlinks > .logo {
+  margin-left: 0px;
+  margin-right: 76px;
+}
+.navlinks-items-list {
+  padding: 24px 0;
+}
+.navlinks-items-list:last-child {
+  margin-right: 0px;
+}
+
+.contacts-list {
+  display: flex;
+  gap: 40px;
+}
+
+/*.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}*/
+
+.description-item {
+  max-width: 264px;
+}
+.block-description {
+  flex-wrap: nowrap;
+  display: flex;
+  gap: 24px;
+}
+.description-item:first-child {
+  flex-basis: calc((100%-72px) / 4);
+}
+.description-item:last-child {
+  margin-right: 0px;
+}
+.images-section {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 24px;
+}
+
+.images-section-item:last-child {
+  margin-right: 0px;
+}
+.job-images-section {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 24px;
+}
+.third-section > .second-heading {
+  display: flex;
+  justify-content: center;
+}
+.images-section2 {
+  display: flex;
+  flex-wrap: nowrap;
+  row-gap: 24px;
+  align-items: center;
+  flex-direction: row;
+}
+.images-section-item2 {
+  border-radius: 0px 0px 4px 4px;
+  background: var(--white, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.images-section-item2:first-child {
+  margin-left: 0px;
+}
+.images-section-item2:last-child {
+  margin-right: 0px;
+}
+.footer-container {
+  /*display: flex;*/
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer-container > .logo {
+  gap: 17.5px;
+}
+.footer-container > .credo {
+  max-width: 264px;
+}
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+/*ten visually-hidden nam polecał trener kijhank*/
+/*.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  podany panem visually hidden nie działa
+}*/
+.button-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 72px;
+  gap: 24px;
+}
+.main-links-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.main-links-item:nth-child(1n + 3) {
+  margin-left: 0px;
+}
+.main-links-item:first-child {
+  width: calc((100% - 48px) / 3);
+}
+.down-description {
+  padding: 32px 16px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.first-section {
+  padding: 188px 0px;
+}
+/*.footer-container > .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}*/
+.down-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.description-down {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  border-top: none;
+}
