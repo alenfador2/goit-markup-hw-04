@@ -454,7 +454,7 @@ img {
   margin-top: 8px;
 }
 .team-description:hover,
-.team-description:focus {
+.team-description:focus svg {
   fill: var(--green, #31d0aa);
 }
 .svg-div {
