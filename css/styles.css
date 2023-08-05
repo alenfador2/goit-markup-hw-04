@@ -6,6 +6,8 @@
   --slate: #434455;
   --navyblue: #2e2f42;
   --white: #fff;
+  --lightslate: #8e8f99;
+  --green: #31d0aa;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -79,6 +81,7 @@ p {
   border-radius: 4px;
   border: 1px solid transparent;
   text-align: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .contacts {
   font-size: 16px;
@@ -229,12 +232,16 @@ button {
 }
 .first-section {
   background-color: var(--navyblue, #2e2f42);
+  background-image: linear-gradient(#2e2f42b2 70%, #2e2f42b2),
+    url('../images/dewelopers_workspace.jpg');
+  max-width: 1440px;
+  margin: auto;
 }
 .second-section {
   background-color: var(--white, #fff);
   padding-top: 0;
 }
-.third-section {
+.our-team {
   background-color: var(--cloud, #f4f4fd);
 }
 .down {
@@ -332,7 +339,7 @@ ul {
   flex-wrap: nowrap;
   gap: 24px;
 }
-.third-section > .second-heading {
+.our-team > .second-heading {
   display: flex;
   justify-content: center;
 }
@@ -357,8 +364,8 @@ ul {
   margin-right: 0px;
 }
 .footer-container {
-  /*display: flex;*/
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
   justify-content: flex-start;
 }
 .footer-container > .logo {
@@ -399,6 +406,12 @@ ul {
   column-gap: 24px;
   row-gap: 48px;
 }
+.main-links-item:hover,
+.main-links-item:focus {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
 .main-links-item:nth-child(1n + 3) {
   margin-left: 0px;
 }
@@ -429,4 +442,84 @@ img {
   padding: 32px 16px;
   border: 1px solid var(--cornflower, #e7e9fc);
   border-top: none;
+}
+.svg-icons {
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+}
+.team-description {
+  width: 40px;
+  height: 40px;
+  margin-top: 8px;
+}
+.team-description:hover,
+.team-description:focus {
+  fill: var(--green, #31d0aa);
+}
+.svg-div {
+  width: 232px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.customers-section {
+  padding: 120px 0;
+}
+.customers-section > h2 {
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.customers-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.customers-number {
+  margin-top: 72px;
+  border-radius: 4px;
+  border: 1px solid var(--lightslate, #8e8f99);
+}
+.customers-number:hover,
+.customers-number:focus {
+  border: 1px solid var(--ocean, #404bbf);
+}
+
+.clients {
+  fill: var(--lightslate, #8e8f99);
+}
+.clients:hover,
+.clients:focus {
+  fill: var(--ocean, #404bbf);
+}
+
+.social {
+  color: var(--white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+}
+.footer-div {
+  margin-left: 120px;
+  gap: 16px;
+}
+.footer-div > .team-description {
+  margin-top: 0;
+}
+.footer-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
 }
